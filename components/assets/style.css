@@ -1,0 +1,62 @@
+body {
+    font-family: 'Orbitron';
+    background-color: black;
+}
+.title {
+    color: white;
+}
+#score {
+    border: 1px solid gold;
+    border-radius: 20px;
+}
+
+.versus {
+    font-size: 52px;
+    color: white;
+}
+
+#p1 {
+    border: none;
+    border-radius: 10px;
+    width: 200px;
+    height: 200px;
+    margin: 50px;
+    background-color: rgb(51, 51, 51);
+    color: gold;
+}
+
+#p1>h1 {
+    font-size: 70px;
+}
+
+#p2 {
+    border: none;
+    border-radius: 10px;
+    width: 200px;
+    height: 200px;
+    margin: 50px;
+    background-color: rgb(51, 51, 51);
+    color: gold;
+}
+
+#p2>h1 {
+    font-size: 70px;
+}
+
+#option {
+    padding: 50px;
+}
+
+select {
+    min-width: 100px;
+}
+
+select>option {
+    text-align: center;
+    font-size: large;
+}
+
+#option>button {
+    text-transform: uppercase;
+    min-width: 300px;
+}
