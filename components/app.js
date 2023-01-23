@@ -7,7 +7,7 @@ const winPointOption = document.getElementById("winpoint");
 
 let p1Score = 0;
 let p2Score = 0;
-let winPoint = 1;
+let winPoint = 3;
 let isGameOver = false;
 
 function reset() {
